@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 70px;
+  gap: 10px;
+}
+.avatar {
+  margin-top: 10px;
+}
+.name {
+  margin: 0;
+  font-size: 20px;
+}
+.online {
+  margin: 0;
+  color: green;
+  margin-bottom: 10px;
+}
+.offline {
+  margin: 0;
+  color: red;
+  margin-bottom: 10px;
+}
