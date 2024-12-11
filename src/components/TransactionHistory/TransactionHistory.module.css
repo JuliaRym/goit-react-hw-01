@@ -1,36 +1,36 @@
 .table {
-    width: 600px;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    border-collapse: collapse;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  margin-bottom: 30px;
 }
 .head {
-    background-color: rgb(54, 50, 50);
-    color: white;
-    font-size: 20px;
-    height: 40px;
+  background-color: rgb(54, 50, 50);
+  color: white;
+  font-size: 20px;
+  height: 40px;
 }
 .type {
-    text-transform: capitalize;
-    font-size: 20px;
-    height: 40px;
+  text-transform: capitalize;
+  font-size: 20px;
+  height: 40px;
 }
 .amount {
-    font-size: 20px;
-        height: 40px;
+  font-size: 20px;
+  height: 40px;
 }
 .currency {
-    font-size: 20px;
-        height: 40px;
+  font-size: 20px;
+  height: 40px;
 }
 .head th {
-    border: 1px solid black;
+  border: 1px solid black;
 }
- .table td {
-     border: 1px solid black;
-
- }
+.table td {
+  border: 1px solid black;
+}
 tr:nth-child(even) {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
