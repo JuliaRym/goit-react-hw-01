@@ -17,10 +17,21 @@
 //   },
 // });
 
+// import { defineConfig } from "vite";
+// import react from "@vitejs/plugin-react";
+
+// export default defineConfig({
+//   plugins: [react()],
+//   base: "./",
+// });
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  root: "./", // Katalog główny, gdzie znajduje się index.html
   plugins: [react()],
-  base: "./",
+  build: {
+    outDir: "dist", // Katalog, gdzie będą generowane pliki produkcyjne
+  },
 });
