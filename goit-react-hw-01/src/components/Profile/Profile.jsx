@@ -1,4 +1,5 @@
 import css from "./Profile.module.css";
+import React from "react";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
