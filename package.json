@@ -4,6 +4,7 @@
     "modern-normalize": "^3.0.1"
   },
   "devDependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "vite": "^6.0.3"
   }
 }
